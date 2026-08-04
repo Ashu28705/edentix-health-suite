@@ -211,7 +211,10 @@ function Page() {
               <form
                 onSubmit={(e) => {
                   e.preventDefault();
-                  if (!email.includes("@")) return toast.error("Enter a valid email address.");
+                  if (!email.includes("@")) {
+                    toast.error("Enter a valid email address.");
+                    return;
+                  }
                   toast.success("Subscribed — your first letter arrives next month.");
                   setEmail("");
                 }}
