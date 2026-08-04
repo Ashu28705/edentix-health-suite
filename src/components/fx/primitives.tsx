@@ -198,8 +198,9 @@ export function ToothMark({ className, animate = true }: { className?: string; a
         stroke="currentColor"
         strokeWidth="2.4"
         strokeLinejoin="round"
-        initial={animate ? { pathLength: 0, opacity: 0 } : undefined}
-        animate={animate ? { pathLength: 1, opacity: 1 } : undefined}
+        initial={animate ? { pathLength: 0, opacity: 0 } : { pathLength: 1, opacity: 1 }}
+        animate={{ pathLength: 1, opacity: 1 }}
+
         transition={{ duration: 1.8, ease: "easeInOut" }}
       />
     </svg>
