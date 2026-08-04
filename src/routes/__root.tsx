@@ -85,14 +85,20 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "eDentix — Premium Dental Healthcare Platform" },
+      { title: "eDentix — Premium Dental Care, Engineered Around You" },
       {
         name: "description",
         content:
-          "Book verified dental specialists with live availability, transparent pricing and one encrypted clinical record.",
+          "Book verified dental specialists with live availability, transparent pricing and one encrypted clinical record across four flagship clinics.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "eDentix — Premium Dental Care, Engineered Around You" },
+      { name: "twitter:title", content: "eDentix — Premium Dental Care, Engineered Around You" },
+      { property: "og:description", content: "Book verified dental specialists with live availability, transparent pricing and one encrypted clinical record across four flagship clinics." },
+      { name: "twitter:description", content: "Book verified dental specialists with live availability, transparent pricing and one encrypted clinical record across four flagship clinics." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/7c9d9c48-6665-4e3a-9d43-eacac81145d2/id-preview-6974cd95--bf974e47-48bb-4daf-b8cf-668d49b8433b.lovable.app-1785833036333.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/7c9d9c48-6665-4e3a-9d43-eacac81145d2/id-preview-6974cd95--bf974e47-48bb-4daf-b8cf-668d49b8433b.lovable.app-1785833036333.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },

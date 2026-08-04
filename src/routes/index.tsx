@@ -43,7 +43,7 @@ export const Route = createFileRoute("/")({
       { property: "og:title", content: "eDentix — Premium Dental Care, Engineered Around You" },
       {
         property: "og:description",
-        content: "Verified specialists, live calendars, transparent pricing and one encrypted record.",
+        content: "Book verified dental specialists with live availability, transparent pricing and one encrypted clinical record across four flagship clinics.",
       },
     ],
   }),
