@@ -14,8 +14,8 @@ import { cn } from "@/lib/utils";
 
 export const Route = createFileRoute("/book")({
   validateSearch: (search: Record<string, unknown>) => ({
-    service: typeof search.service === "string" ? search.service : undefined,
-    doctor: typeof search.doctor === "string" ? search.doctor : undefined,
+    service: typeof search["service"] === "string" ? (search["service"] as string) : undefined,
+    doctor: typeof search["doctor"] === "string" ? (search["doctor"] as string) : undefined,
   }),
   head: () => ({
     meta: [

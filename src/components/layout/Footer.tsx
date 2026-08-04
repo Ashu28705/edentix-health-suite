@@ -27,7 +27,6 @@ const columns = [
     title: "Company",
     links: [
       { to: "/about", label: "About eDentix" },
-      { to: "/clinics", label: "Clinic locations" },
       { to: "/contact", label: "Contact" },
       { to: "/emergency", label: "Emergency care" },
       { to: "/login", label: "Sign in" },
