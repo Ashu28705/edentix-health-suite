@@ -11,7 +11,6 @@ const nav = [
   { to: "/", label: "Home" },
   { to: "/services", label: "Services" },
   { to: "/doctors", label: "Doctors" },
-  { to: "/clinics", label: "Clinics" },
   { to: "/pricing", label: "Pricing" },
   { to: "/blog", label: "Journal" },
   { to: "/contact", label: "Contact" },
