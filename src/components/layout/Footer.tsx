@@ -8,12 +8,11 @@ const columns = [
     title: "Treatments",
     links: [
       { to: "/services", label: "All services" },
-      { to: "/services/cosmetic-dentistry", label: "Cosmetic dentistry" },
-      { to: "/services/dental-implants", label: "Dental implants" },
-      { to: "/services/orthodontics", label: "Orthodontics" },
       { to: "/pricing", label: "Pricing" },
+      { to: "/emergency", label: "Emergency care" },
     ],
   },
+
   {
     title: "Platform",
     links: [
